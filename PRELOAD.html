@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Preload</title>
+  
+  <!-- Preload para cargar una imagen antes de que se muestre -->
+  <link rel="preload" href="imagen-preload.jpg" as="image">
+  
+  <style>
+    img {
+      width: 300px;
+      height: auto;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ejemplo de imágenes con y sin preload</h1>
+  
+  <!-- Imagen con preload -->
+  <p>Imagen con preload:</p>
+  <img src="torneo-2024-El-Salvador.jpg" alt="Imagen cargada con preload">
+
+  <!-- Imagen sin preload -->
+  <p>Imagen sin preload:</p>
+  <img src="imagen-sin-preload.jpg" alt="Imagen cargada sin preload">
+
+</body>
+</html>
